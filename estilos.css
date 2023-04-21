@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+
+.contenedor-general
+{
+    display: flex;
+}
+
+.contenedor-izquierdo
+{
+    background-color: darkblue;
+    width:20%;
+    color: white;
+    text-align: center;
+}
+
+img.rostro{
+    max-width: 100%;
+    margin-top: 40px;
+    height: 300px;
+}
+
+.contenedor-contacto
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div.iconos
+{
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    margin: 5px;
+}
+
+p.contactos
+{
+    width: 70%;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+}
+
+p a{color:white;}
+
+p.contactos img
+{
+    max-height: 100%;
+}
+
+.indicadores
+{
+    width:45%;
+    height: 1em;
+    display: inline-block;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.leyendaIndicador
+{
+    display: inline-block;
+    width: 45%;
+}
+
+#indicadorWeb{border-right: 20px solid black;}
+#indicadorProgram{border-right: 40px solid black;}
+#indicadorElectro{border-right: 10px solid black;}
+#indicadorJavaScript{border-right: 70px solid black;}
+#indicadorC{border-right: 50px solid black;}
+#indicadorPHP{border-right: 60px solid black;}
+
+/*contenedor derecho*/
+.contenedor-derecho
+{
+    width: 80%;
+    padding:10px;
+    padding-right:50px;
+    background-image: linear-gradient(lightgray,white);
+}
+
+.contenedor-derecho h1
+{
+    text-align: center;
+    font-style: italic;
+    color: darkblue;
+    font-size: 3em;
+}
+
+h2.subtitulos
+{
+    display: inline-block;
+    padding:5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+}
+
+label.leyendaAños
+{
+    font-weight: bold;
+    width: 15%;
+    display: inline-block;
+}
+
+span.estudiosTrabajos
+{
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 10px;
+}
